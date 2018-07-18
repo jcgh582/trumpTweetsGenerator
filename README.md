@@ -1,14 +1,15 @@
-What is this repo:
-
 Use a second order Markov Chain to generate new Trump tweets based on his previous tweets
 
-Run:
+Steps to generate tweets:
 
 1. Create a 'secrets.sh' file which contains
 
     export CONSUMER_KEY="yourConsumerKey"
+    
     export CONSUMER_SECRET="yourConsumerSecretKey"
+    
     export ACCESS_KEY="yourAccessKey"
+    
     export ACCESS_SECRET="yourAccessSecretKey"
 
 2. chmod 777 secrets.sh
